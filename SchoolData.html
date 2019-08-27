@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Visualizations School Type Comparison</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+ <!-- Navigation Section -->
+ <div class="navigate">
+  <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" style="background-color: salmon;" href="index.html">School Type</a>
+   
+    <button class="navbar-toggler  border border-white" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Plots</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="studentbudget.html">Per Student Budget</a>
+                        <a class="dropdown-item" href="studentsize.html">Student Count by School Type</a>
+                        <a class="dropdown-item" href="schooltype.html">Passing Rate by School Type</a>
+                        <a class="dropdown-item" href="schoolsize.html">Passing Rate by School Size</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="compare.html">Comparison</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="SchoolData.html">Data</a>
+                </li>
+
+      </ul>
+    </div>
+    
+  </nav>
+</div>
+
+<div class="container-fluid">
+    <div class="row p-4 bg-light">
+        <div class="col-sm-12 col-md-12 m-2 p-4">
+            <h4 class="title">School Data</h4>
+            <p>The following table includes all of the school data used for analyzing and plotting during the project.</p>
+            <div class="row">
+
+                <table class="table table-bordered table-hover table-condensed">
+                    <thead><tr><th title="Field #1">School ID</th>
+                        <th title="Field #2">School Name</th>
+                        <th title="Field #3">School Type</th>
+                        <th title="Field #4">School Size</th>
+                        <th title="Field #5">School Budget</th>
+                    </tr></thead>
+                    <tbody>
+                        <tr>
+                            <th align="right">0</th>
+                            <td>Huang High School</td>
+                            <td>District</td>
+                            <td align="right">2917</td>
+                            <td align="right">1910635</td>
+                        </tr>
+                        <tr>
+                            <th align="right">1</th>
+                            <td>Figueroa High School</td>
+                            <td>District</td>
+                            <td align="right">2949</td>
+                            <td align="right">1884411</td>
+                        </tr>
+                        <tr>
+                            <th align="right">2</th>
+                            <td>Shelton High School</td>
+                            <td>Charter</td>
+                            <td align="right">1761</td>
+                            <td align="right">1056600</td>
+                        </tr>
+                        <tr>
+                            <th align="right">3</th>
+                            <td>Hernandez High School</td>
+                            <td>District</td>
+                            <td align="right">4635</td>
+                            <td align="right">3022020</td>
+                        </tr>
+                        <tr>
+                            <th align="right">4</th>
+                            <td>Griffin High School</td>
+                            <td>Charter</td>
+                            <td align="right">1468</td>
+                            <td align="right">917500</td>
+                        </tr>
+                        <tr>
+                            <th align="right">5</th>
+                            <td>Wilson High School</td>
+                            <td>Charter</td>
+                            <td align="right">2283</td>
+                            <td align="right">1319574</td>
+                        </tr>
+                        <tr>
+                            <th align="right">6</th>
+                            <td>Cabrera High School</td>
+                            <td>Charter</td>
+                            <td align="right">1858</td>
+                            <td align="right">1081356</td>
+                        </tr>
+                        <tr>
+                            <th align="right">7</th>
+                            <td>Bailey High School</td>
+                            <td>District</td>
+                            <td align="right">4976</td>
+                            <td align="right">3124928</td>
+                        </tr>
+                        <tr>
+                            <th align="right">8</th>
+                            <td>Holden High School</td>
+                            <td>Charter</td>
+                            <td align="right">427</td>
+                            <td align="right">248087</td>
+                        </tr>
+                        <tr>
+                            <th align="right">9</th>
+                            <td>Pena High School</td>
+                            <td>Charter</td>
+                            <td align="right">962</td>
+                            <td align="right">585858</td>
+                        </tr>
+                        <tr>
+                            <th align="right">10</th>
+                            <td>Wright High School</td>
+                            <td>Charter</td>
+                            <td align="right">1800</td>
+                            <td align="right">1049400</td>
+                        </tr>
+                        <tr>
+                            <th align="right">11</th>
+                            <td>Rodriguez High School</td>
+                            <td>District</td>
+                            <td align="right">3999</td>
+                            <td align="right">2547363</td>
+                        </tr>
+                        <tr>
+                            <th align="right">12</th>
+                            <td>Johnson High School</td>
+                            <td>District</td>
+                            <td align="right">4761</td>
+                            <td align="right">3094650</td>
+                        </tr>
+                        <tr>
+                            <th align="right">13</th>
+                            <td>Ford High School</td>
+                            <td>District</td>
+                            <td align="right">2739</td>
+                            <td align="right">1763916</td>
+                        </tr>
+                        <tr>
+                            <th align="right">14</th>
+                            <td>Thomas High School</td>
+                            <td>Charter</td>
+                            <td align="right">1635</td>
+                            <td align="right">1043130</td>
+                        </tr>
+                   </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>  
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
+
